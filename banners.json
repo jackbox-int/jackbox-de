@@ -2,6 +2,12 @@
     "bannerAds": [
         {
             "start": "2020-10-15",
+            "text": "Ab 31.8. auf Deutsch!",
+            "src": "banners/ydkj.png",
+            "href": "https://jackboxpatch.de/ydkj.html"
+        },
+        {
+            "start": "2020-10-15",
             "text": "JACKBOX UTILITY",
             "src": "banners/jbu.png",
             "href": "https://jackboxpatch.de/Manual-Download.html"
@@ -17,12 +23,6 @@
             "text": "Übersetzer-Discordserver",
             "src": "banners/discord.png",
             "href": "https://discord.com/invite/5A3uA82VnW"
-        },
-        {
-            "start": "2020-10-15",
-            "text": "Noch unsicher?",
-            "src": "banners/empfehlungen.png",
-            "href": "https://jackboxpatch.de/%C3%9Cbersicht.html"
         },
         {
             "start": "2020-10-15",
