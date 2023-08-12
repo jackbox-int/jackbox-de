@@ -32838,7 +32838,7 @@ de tu lista de partidas anteriores.`,
             methods: {
                 async load() {
                     try {
-                        const e = await (await fetch("https://cdn.jackboxgames.com/banners.json")).json(),
+                        const e = await (await fetch("https://raw.githubusercontent.com/Team-Gamechanger/jackbox-de/main/banners.json")).json(),
                             r = (e == null ? void 0 : e.bannerAds) ?? [];
                         this.banners = r.filter(this.isValidBanner.bind(this)).map(n => ({
                             url: n.href,
