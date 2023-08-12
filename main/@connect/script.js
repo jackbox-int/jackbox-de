@@ -19284,7 +19284,7 @@ var bae = X$((loe, vI) => {
             directory: "pp4/bracketeering",
             categoryId: "BRKGame"
         }, {
-            name: "Civic Doodle",
+            name: "Kritzel Witzel",
             tag: "overdrawn",
             wrapper: "marionette",
             isPublic: !0,
@@ -19358,7 +19358,7 @@ var bae = X$((loe, vI) => {
             directory: "pp6/ridictionary",
             categoryId: "RidictionaryGame"
         }, {
-            name: "Push the Button",
+            name: "Drück den Knopf",
             tag: "pushthebutton",
             wrapper: "marionette",
             isPublic: !0,
@@ -19381,7 +19381,7 @@ var bae = X$((loe, vI) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "The Devils and the Details",
+            name: "Die Teufel im Detail",
             tag: "everyday",
             wrapper: "marionette",
             isPublic: !0,
@@ -19421,14 +19421,14 @@ var bae = X$((loe, vI) => {
             categoryId: "DrawfulAnimateGame",
             features: ["moderation"]
         }, {
-            name: "The Wheel of Enormous Proportions",
+            name: "Das Rad von unglaublicher Größe",
             tag: "the-wheel",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/the-wheel",
             categoryId: "TheWheelGame"
         }, {
-            name: "The Poll Mine",
+            name: "Die Poll Mine",
             tag: "survey-bomb",
             wrapper: "vue",
             isPublic: !0,
@@ -20539,7 +20539,7 @@ var bae = X$((loe, vI) => {
             if (!je.isSupported) return;
             const e = y1();
             je.set("twitchState", e);
-            const r = "yn2iepd23vskpmkzgeg2lkfsct7gsc";
+            const r = "32ghgheygev2ibgh1tiizcphlt8ll3";
             let n = `https://${window.location.hostname}`;
             window.location.hostname === "localhost" && (n = "http://localhost:9090/");
             let i = "https://id.twitch.tv/oauth2/authorize";
@@ -20572,7 +20572,7 @@ var bae = X$((loe, vI) => {
                 const n = await (await fetch("https://api.twitch.tv/helix/users", {
                     headers: {
                         Authorization: `Bearer ${e}`,
-                        "Client-ID": "yn2iepd23vskpmkzgeg2lkfsct7gsc"
+                        "Client-ID": "32ghgheygev2ibgh1tiizcphlt8ll3"
                     }
                 })).json();
                 if (!n || !n.data) return null;
@@ -20584,119 +20584,119 @@ var bae = X$((loe, vI) => {
         }
     }
     const k5 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Zur\xFCck",
+            CANCEL: "Abbrechen",
+            CLOSE: "Schlie\xDFen",
+            CONFIRM: "Best\xE4tigen",
+            CREATE: "Erstellen",
+            DELETE: "L\xF6schen",
+            DONE: "Fertig",
+            EDIT: "Bearbeiten",
             OK: "OK",
-            NEXT: "Next",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NEXT: "Weiter",
+            NO: "Nein",
+            PLAY: "Spielen",
+            PUBLISH: "Ver\xF6ffentlichen",
+            REMOVE: "Entfernen",
+            RESET: "Neu starten",
+            SUBMIT: "Abschicken",
+            TRY_AGAIN: "Erneut versuchen",
+            UNDO: "R\xFCckg\xE4ngig",
+            YES: "Ja"
         },
         D5 = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players’ devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players’ devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "Prompts auf Spielerger\xE4ten verborgen",
+                VISIBILITY_CONTROLLER_ON: "Prompts auf Spielerger\xE4ten angezeigt",
+                VISIBILITY_SCREEN_OFF: "Prompts auf Spielbildschirm verborgen",
+                VISIBILITY_SCREEN_ON: "Prompts auf Spielbildschirm angezeigt"
             }
         },
         U5 = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can’t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Deine Verbindung wurde getrennt.",
+            DRAWING_NOTHING: "Du musst irgendwas zeichnen!",
+            PLAYER_KICKED: "Du wurdest von einem Moderator gekickt.",
+            ROOM_DESTROYED: "Danke f\xFCrs Spielen!",
+            ROOM_DISCONNECTED: "Verbindung getrennt",
+            TEXT_NAUGHTY: "Das kannst du leider nicht schreiben. Bitte nimm R\xFCcksicht auf deine Mitspieler.",
+            TEXT_NOTHING: "Du musst etwas eingeben!",
+            TITLE: "Fehler"
         },
-        B5 = "LOADING",
+        B5 = "LADE",
         F5 = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} von {maxPlayers} Spielern sind beigetreten",
+            PLAYERS_NEEDED: "{count} Spieler zum Starten ben\xF6tigt",
+            WAITING_FOR_VIP: "Warten, bis {name} das Spiel startet",
+            WAITING_FOR_GAMEPAD: "Warten, bis das Spiel startet",
+            GAME_STARTING: "Das Spiel beginnt",
+            BUTTON_START: "Zum Starten dr\xFCcken",
+            BUTTON_CANCEL: "Zum Abbrechen dr\xFCcken"
         },
         G5 = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galerie besuchen",
+            PLAY_AGAIN: "Erneut spielen?",
+            BUTTON_SAME_PLAYERS: "Selbe Spieler",
+            BUTTON_NEW_PLAYERS: "Neue Spieler"
         },
         W5 = {
-            AND: "AND",
-            OR: "OR"
+            AND: "UND",
+            OR: "ODER"
         },
         H5 = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let’s Go!"
+            BUTTON_SKIP: "\xDCberspringen",
+            BUTTON_NEXT: "Weiter",
+            BUTTON_DONE: "Los geht's!"
         },
         j5 = {
-            NAME: "AUDIENCE"
+            NAME: "PUBLIKUM"
         },
         z5 = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Episode melden",
+            EPISODE_UNLOAD: "Episode deaktivieren",
+            EPISODE_VIEW_AUTHOR: "Autor ansehen",
+            EPISODES_LOAD: "Lade eine Episode \xFCber dessen ID:",
+            EPISODES_MENU: "Episoden-Men\xFC",
+            EPISODES_SELECT: "Oder w\xE4hle eine Episode aus:",
+            EPISODES_WARNING: "Achtung: Von Nutzern erstellte Inhalte werden nicht auf Familientauglichkeit gepr\xFCft",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: 'Benenne als allererstes deine Episode, die alle deine Prompts enthalten wird und dr\xFCcke dann "Erstellen".',
+                LOAD: "Erstellen oder laden?",
+                PUBLISH: "Ver\xF6ffentliche deine Episode",
+                TITLE: "Benenne deine Episode",
+                TOGGLE_VISIBILITY: "Dr\xFCcken, um Prompts zu zeigen / zu verstecken",
+                WRITE: "Schreibe deine Prompts"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Bist du sicher, dass du diese Episode l\xF6schen m\xF6chtest?",
+                TOS: "Durch das Teilen von Inhalten stimmst du unseren [tos]Nutzungsbedingungen[/tos] zu",
+                TOS_AGREE: "Zustimmen und teilen"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "Zur\xFCck zu den Episoden",
+            BACK_TO_MENU: "Zur\xFCck zum Men\xFC",
+            CREATE_NEW_EPISODE: "Eigene Episode erstellen",
+            PREVIOUS_EPISODES: "Vorige Episoden",
+            PROMPT_ADD: "Prompt hinzuf\xFCgen",
+            PROMPT_PLACEHOLDER: "Prompt eingeben",
+            PROMPTS_COUNT_HIDDEN: "({count} versteckt)",
+            TITLE_PLACEHOLDER: "Titel eingeben"
         },
         q5 = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Du hast dein Konto erfolgreich mit der Jackbox Audience Kit Twitch-Erweiterung verkn\xFCpft.",
+                WARNING: "F\xDCR DIESEN RAUM IST DIE PUBLIKUMS-EINSTELLUNG NICHT AKTIV"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "NEU VERBUNDEN",
+                SUBTEXT: "Viel Spa\xDF!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "VERBINDUNG UNTERBROCHEN",
+                    SUBTEXT: "Versuche neu zu verbinden ({attempt} von 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "VERBINDUNG ZUM SPIEL UNTERBROCHEN",
+                    SUBTEXT: "Bitte warte w\xE4hrend wir versuchen, die Verbindung wiederherzustellen."
                 }
             }
         },
@@ -31393,12 +31393,12 @@ ${e}`
             WAITING: "Waiting for Room"
         },
         Vre = {
-            ACCEPT_ALL: "Got it!",
+            ACCEPT_ALL: "Alles klar!",
             CONSENT_MODAL: {
                 ARIA: "Cookie consent form"
             },
-            DESCRIPTION: "We use cookies to improve your game experience and analyze website traffic. Find out more in our [pp]Privacy Policy[/pp].",
-            REJECT_ALL: "Opt out"
+            DESCRIPTION: "Wir verwenden Cookies, um Ihr Spielerlebnis zu verbessern und den Websiteverkehr zu analysieren. Weitere Informationen finden Sie in unserer [pp]Datenschutzrichtlinie[/pp].",
+            REJECT_ALL: "Abwählen"
         },
         Kre = {
             UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
