@@ -27926,7 +27926,7 @@ ${e}`
             PLACEHOLDER: "Gib eine Vermutung ab"
         },
         Yce = {
-            SPIN: '[player avatar="{avatar}"]{name}[/player] is der Dreher',
+            SPIN: '[player avatar="{avatar}"]{name}[/player] ist der Dreher',
             MESSAGES: ["Denk dran... Geduld ist eine Tugend", "Dieser Bildschirm ist leer. Oder auch nicht?", "Das Abenteuer wartet!", "Oh, warten. Ich liebe warten!", "Warte einfach bis es weitergeht!", "Hey, schickes Gerät! Sorry, ich wollte nur was nettes sagen.", "(Hier Aufzugmusik einfügen)", "Setz dich, mein Lieber.", "Ich glaube an dich. Psst, sag es aber keinem.", "Gleich wird es großartig.", "Hier gibt es nichts zu sehen.", "Sieh her... ein Bildschirm nur mit diesen Worten drauf.", "Eigentum des Rads von unglaublicher Größe.", "Das Rad war hier."]
         },
         Xce = {
